@@ -74,3 +74,41 @@ border-radius:5px;
 padding:0 15px;
 margin-right:15px;    
 }
+
+footer
+{
+display: grid;    
+width:100%;
+height:50px;
+position:absolute;
+grid-template-columns: 1fr 1fr;
+bottom:0 ;
+align-items: center;
+font-size: 13px;
+background-color:#f2f2f2 ;
+border-top:1px solid #e4e4e4;    
+}
+
+footer ul
+{
+margin-right:10px;
+list-style: none;
+display:flex;
+padding-left:0 ;    
+}
+
+footer ul li a
+{
+margin:10px;
+color:#5f6368;
+}
+
+footer .footer-left
+{
+justify-self: left;    
+}
+
+footer .footer-right
+{
+justify-self:right ;    
+}
